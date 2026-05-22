@@ -1,19 +1,26 @@
 <div align="center">
 
-<img src="powerbi/screenshots/logoDarkom.png" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=3&width=300"/>
 
-<br>
+<img src="powerbi/screenshots/logoDarkom.png" width="78%" style="margin-top:-8px;"/>
 
-<h1 align="center">DARKOM REAL ESTATE ANALYTICS</h1>
+<h1 align="center">
 
-<h3 align="center">
-Modern Business Intelligence & Data Warehouse Platform
-</h3>
+<span style="color:#E75480;">DARKOM</span>
+<span style="color:white;"> REAL ESTATE ANALYTICS</span>
+
+</h1>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=4000&color=FFFFFF&center=true&vCenter=true&width=650&lines=Modern+Business+Intelligence+%26+Data+Warehouse+Platform"/>
+
+</div>
 
 <br>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&color=E75480&center=true&vCenter=true&width=900&lines=PostgreSQL+Data+Warehouse+Architecture;Interactive+Power+BI+Dashboards;Advanced+SQL+Data+Processing;Real+Estate+Market+Analytics" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=1000&color=E75480&center=true&vCenter=true&width=900&lines=PostgreSQL+Data+Warehouse+Architecture;Interactive+Power+BI+Dashboards;Advanced+SQL+Data+Processing;Real+Estate+Market+Analytics"/>
 </a>
 
 <br><br>
@@ -24,19 +31,27 @@ A modern Business Intelligence platform designed to transform raw Moroccan real 
 
 <br>
 
-<img src="https://img.shields.io/badge/PostgreSQL-1E1E1E?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-161B22?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL-E75480?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Power_BI-111111?style=for-the-badge&logo=powerbi&logoColor=F2C811"/>
 <img src="https://img.shields.io/badge/DAX-242424?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Power_Query-3A3A3A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Power_Query-2D2D2D?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Data_Warehouse-E75480?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Star_Schema-2B2B2B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Star_Schema-161B22?style=for-the-badge"/>
 
 </div>
 
----
+<br><br>
 
-# PROJECT OVERVIEW
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=400&lines=PROJECT+OVERVIEW"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=260"/>
+
+</div>
+
+<br>
 
 This project delivers a complete Business Intelligence workflow dedicated to the Moroccan real estate market.
 
@@ -51,9 +66,17 @@ Starting from raw CSV advertisements data, the solution performs:
 
 The final result is a scalable analytical platform optimized for Power BI and business decision-making.
 
----
+<br><br>
 
-# BI PIPELINE
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=300&lines=BI+PIPELINE"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=180"/>
+
+</div>
+
+<br>
 
 <div align="center">
 
@@ -75,9 +98,17 @@ Interactive Dashboards & KPIs
 
 </div>
 
----
+<br><br>
 
-# DATA WAREHOUSE ARCHITECTURE
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=550&lines=DATA+WAREHOUSE+ARCHITECTURE"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=420"/>
+
+</div>
+
+<br>
 
 <div align="center">
 
@@ -100,12 +131,20 @@ The project uses a professional Star Schema architecture optimized for:
 - Scalable reporting
 - Simplified business queries
 
----
+<br><br>
 
-# PROJECT STRUCTURE
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=400&lines=PROJECT+STRUCTURE"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=300"/>
+
+</div>
+
+<br>
 
 <details>
-<summary><b>Expand Repository Structure</b></summary>
+<summary><b style="color:#ff7aa2;">Expand Repository Structure</b></summary>
 
 <br>
 
@@ -140,9 +179,19 @@ darkom-real-estate-datawarehouse-bi/
 
 </details>
 
----
+<br><br>
 
-# TECHNOLOGY STACK
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=420&lines=TECHNOLOGY+STACK"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=320"/>
+
+</div>
+
+<br>
+
+<div align="center">
 
 | Technology | Purpose |
 |---|---|
@@ -153,11 +202,35 @@ darkom-real-estate-datawarehouse-bi/
 | DAX | Business KPIs & Measures |
 | Git & GitHub | Version Control |
 
----
+</div>
 
-# DATA PROCESSING
+<br><br>
 
-## STAGING LAYER
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true"/>
+
+</div>
+
+<br><br>
+
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=380&lines=DATA+PROCESSING"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=260"/>
+
+</div>
+
+<br>
+
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=280&lines=STAGING+LAYER"/>
+
+</div>
+
+<br>
 
 The raw dataset is first loaded into a staging schema for temporary storage and validation.
 
@@ -167,9 +240,15 @@ The raw dataset is first loaded into a staging schema for temporary storage and 
 - Logging
 - Temporary storage management
 
----
+<br>
 
-## DATA CLEANING
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=280&lines=DATA+CLEANING"/>
+
+</div>
+
+<br>
 
 Several SQL scripts were developed to clean and standardize the dataset.
 
@@ -182,11 +261,15 @@ Several SQL scripts were developed to clean and standardize the dataset.
 - Type conversion
 - Validation checks
 
----
+<br>
 
-## FEATURE ENGINEERING
+<div align="left">
 
-Additional analytical features were generated:
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=340&lines=FEATURE+ENGINEERING"/>
+
+</div>
+
+<br>
 
 | Feature | Description |
 |---|---|
@@ -198,17 +281,31 @@ Additional analytical features were generated:
 | mois_publication | Publication month |
 | trimestre_publication | Publication quarter |
 
----
+<br><br>
 
-# POWER BI DASHBOARDS
+<div align="left">
 
-The solution includes 4 fully interactive dashboards.
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=500&lines=POWER+BI+DASHBOARDS"/>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=360"/>
 
-# GLOBAL MARKET OVERVIEW
+</div>
 
-### Main KPIs
+<br>
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=420&lines=GLOBAL+MARKET+OVERVIEW"/>
+
+</div>
+
+### KPIs
 - Total advertisements
 - Average market price
 - Average surface
@@ -220,15 +317,33 @@ The solution includes 4 fully interactive dashboards.
 - Geographic distribution
 - Market evolution
 
-<div align="center">
-<img src="powerbi/screenshots/Vue_global_du_marche.png" width="100%"/>
+</td>
+
+<td width="50%">
+
+<img src="powerbi/screenshots/Vue_global_du_marche.png"/>
+
+</td>
+</tr>
+</table>
+
 </div>
 
----
+<br><br>
 
-# PRICE ANALYTICS
+<div align="center">
 
-### Main KPIs
+<table>
+<tr>
+<td width="50%">
+
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=320&lines=PRICE+ANALYTICS"/>
+
+</div>
+
+### KPIs
 - Average price
 - Maximum price
 - Average price per m²
@@ -239,15 +354,33 @@ The solution includes 4 fully interactive dashboards.
 - Segment analysis
 - Property comparison
 
-<div align="center">
-<img src="powerbi/screenshots/analyse%20les%20prix.png" width="100%"/>
+</td>
+
+<td width="50%">
+
+<img src="powerbi/screenshots/analyse les prix.png"/>
+
+</td>
+</tr>
+</table>
+
 </div>
 
----
+<br><br>
 
-# GEOGRAPHIC ANALYTICS
+<div align="center">
 
-### Main KPIs
+<table>
+<tr>
+<td width="50%">
+
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=380&lines=GEOGRAPHIC+ANALYTICS"/>
+
+</div>
+
+### KPIs
 - Number of cities
 - Number of neighborhoods
 - Most active locations
@@ -258,15 +391,33 @@ The solution includes 4 fully interactive dashboards.
 - Neighborhood ranking
 - Spatial price analysis
 
-<div align="center">
-<img src="powerbi/screenshots/analyse_geographie.png" width="100%"/>
+</td>
+
+<td width="50%">
+
+<img src="powerbi/screenshots/analyse_geographie.png"/>
+
+</td>
+</tr>
+</table>
+
 </div>
 
----
+<br><br>
 
-# MARKET TRENDS ANALYTICS
+<div align="center">
 
-### Main KPIs
+<table>
+<tr>
+<td width="50%">
+
+<div align="left">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=4000&color=FF7AA2&vCenter=true&width=450&lines=MARKET+TRENDS+ANALYTICS"/>
+
+</div>
+
+### KPIs
 - Growth rate
 - Market evolution
 - Sales trends
@@ -277,15 +428,29 @@ The solution includes 4 fully interactive dashboards.
 - N vs N-1 comparison
 - Advertisement evolution
 
-<div align="center">
-<img src="powerbi/screenshots/analyse_tendance.png" width="100%"/>
+</td>
+
+<td width="50%">
+
+<img src="powerbi/screenshots/analyse_tendance.png"/>
+
+</td>
+</tr>
+</table>
+
 </div>
 
----
+<br><br>
 
-# DAX BUSINESS MEASURES
+<div align="left">
 
-Advanced DAX measures were implemented:
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=500&lines=DAX+BUSINESS+MEASURES"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=360"/>
+
+</div>
+
+<br>
 
 ```DAX
 Total Annonces
@@ -301,21 +466,17 @@ Prix Minimum
 Annonces Suspectes
 ```
 
----
+<br><br>
 
-# DATA VALIDATION
+<div align="left">
 
-Validation procedures include:
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=4000&color=E75480&vCenter=true&width=420&lines=BUSINESS+INSIGHTS"/>
 
-- Referential integrity checks
-- Duplicate detection
-- NULL verification
-- Warehouse consistency validation
-- Suspicious advertisements detection
+<img src="https://capsule-render.vercel.app/api?type=rect&color=E75480&height=2&width=300"/>
 
----
+</div>
 
-# BUSINESS INSIGHTS
+<br>
 
 - Casablanca and Marrakech dominate the market volume.
 - Villas represent the highest-value property segment.
@@ -323,53 +484,10 @@ Validation procedures include:
 - Seasonal variations impact advertisement activity.
 - Price-per-square-meter analysis helped detect suspicious records.
 
----
-
-# KEY FEATURES
-
-✅ End-to-End BI Workflow  
-✅ Professional Star Schema Modeling  
-✅ Advanced SQL Processing  
-✅ Interactive Power BI Dashboards  
-✅ Feature Engineering  
-✅ Data Quality Validation  
-✅ Business KPIs & DAX Measures  
-✅ Real Estate Analytics Platform  
-
----
-
-# DASHBOARD PREVIEW
+<br><br>
 
 <div align="center">
 
-| Global Overview | Price Analytics |
-|---|---|
-| <img src="powerbi/screenshots/Vue_global_du_marche.png" width="450"/> | <img src="powerbi/screenshots/analyse%20les%20prix.png" width="450"/> |
-
-| Geographic Analytics | Market Trends |
-|---|---|
-| <img src="powerbi/screenshots/analyse_geographie.png" width="450"/> | <img src="powerbi/screenshots/analyse_tendance.png" width="450"/> |
-
-</div>
-
----
-
-# FINAL OUTCOME
-
-This project demonstrates the complete lifecycle of a modern Business Intelligence solution:
-
-```text
-Extraction → Cleaning → Transformation → Modeling → Visualization → Business Insights
-```
-
-The final platform provides a scalable and interactive environment for understanding the Moroccan real estate market.
-
----
-
-<div align="center">
-
-<h3>
-Built with PostgreSQL, SQL, Power BI & DAX
-</h3>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=4000&color=E75480&center=true&vCenter=true&width=500&lines=Built+with+PostgreSQL+SQL+Power+BI+%26+DAX"/>
 
 </div>
