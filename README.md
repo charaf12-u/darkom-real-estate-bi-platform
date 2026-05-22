@@ -1,75 +1,83 @@
 <div align="center">
 
-# 🏠 Darkom Real Estate Data Warehouse & BI Project
+<img src="powerbi/screenshots/logoDarkom.png" width="100%"/>
 
-<img src="powerbi/screenshots/Vue_global_du_marche.png" width="900"/>
+<br>
+
+<h1 align="center">DARKOM REAL ESTATE ANALYTICS</h1>
+
+<h3 align="center">
+Modern Business Intelligence & Data Warehouse Platform
+</h3>
 
 <br>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=D63384&center=true&vCenter=true&width=700&lines=End-to-End+Business+Intelligence+Project;PostgreSQL+Data+Warehouse+Architecture;Interactive+Power+BI+Dashboards;Real+Estate+Market+Analytics" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&color=E75480&center=true&vCenter=true&width=900&lines=PostgreSQL+Data+Warehouse+Architecture;Interactive+Power+BI+Dashboards;Advanced+SQL+Data+Processing;Real+Estate+Market+Analytics" alt="Typing SVG"/>
 </a>
 
 <br><br>
 
 <p align="center">
-A complete Business Intelligence solution designed to transform raw real estate advertisements into an analytical Data Warehouse optimized for reporting, visualization and decision-making using PostgreSQL and Power BI.
+A modern Business Intelligence platform designed to transform raw Moroccan real estate data into actionable business insights through advanced SQL processing, dimensional modeling and interactive Power BI dashboards.
 </p>
 
 <br>
 
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/DAX-1E1E1E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Power_Query-742774?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data_Warehouse-EF476F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Star_Schema-8338EC?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PostgreSQL-1E1E1E?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-E75480?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Power_BI-111111?style=for-the-badge&logo=powerbi&logoColor=F2C811"/>
+<img src="https://img.shields.io/badge/DAX-242424?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Power_Query-3A3A3A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Data_Warehouse-E75480?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Star_Schema-2B2B2B?style=for-the-badge"/>
 
 </div>
 
 ---
 
-# 🎯 Executive Summary
+# PROJECT OVERVIEW
 
-> This project implements a complete Business Intelligence workflow for analyzing the Moroccan real estate market.  
-Starting from raw CSV data, the pipeline performs cleaning, transformation, feature engineering, dimensional modeling and interactive visualization through a professional Data Warehouse architecture.
+This project delivers a complete Business Intelligence workflow dedicated to the Moroccan real estate market.
 
----
+Starting from raw CSV advertisements data, the solution performs:
 
-# 🧠 Main Objectives
+- SQL data cleaning
+- Data transformation
+- Feature engineering
+- Dimensional modeling
+- Warehouse optimization
+- Interactive visualization
 
-- Analyze the real estate market
-- Compare cities and neighborhoods
-- Monitor market evolution over time
-- Analyze property prices and surfaces
-- Compare sales vs rentals
-- Detect suspicious advertisements
-- Build interactive dashboards for decision-making
+The final result is a scalable analytical platform optimized for Power BI and business decision-making.
 
 ---
 
-# ⚙️ BI Pipeline Architecture
+# BI PIPELINE
+
+<div align="center">
 
 ```text
-Raw CSV Data
-      ↓
+Raw CSV Dataset
+        ↓
 Staging Layer
-      ↓
-Data Cleaning
-      ↓
+        ↓
+Data Cleaning & Validation
+        ↓
 Feature Engineering
-      ↓
+        ↓
 Star Schema Data Warehouse
-      ↓
-Power BI Dashboards
-      ↓
-Business Insights
+        ↓
+Power BI Semantic Model
+        ↓
+Interactive Dashboards & KPIs
 ```
+
+</div>
 
 ---
 
-# 🏗️ Data Warehouse Architecture
+# DATA WAREHOUSE ARCHITECTURE
 
 <div align="center">
 
@@ -82,17 +90,27 @@ dim_localisation -- fact_annonces -- dim_bien
 
 </div>
 
+<br>
+
+The project uses a professional Star Schema architecture optimized for:
+
+- High-performance analytics
+- Fast aggregations
+- Power BI optimization
+- Scalable reporting
+- Simplified business queries
+
 ---
 
-# 📂 Project Structure
+# PROJECT STRUCTURE
 
 <details>
-<summary><b>Click to expand repository structure</b></summary>
+<summary><b>Expand Repository Structure</b></summary>
 
 <br>
 
 ```text
-project/
+darkom-real-estate-datawarehouse-bi/
 │
 ├── data/
 │   └── raw/
@@ -103,7 +121,7 @@ project/
 │   └── import_logs.txt
 │
 ├── powerbi/
-│   ├── aaa.pbix
+│   ├── darkom_dashboard.pbix
 │   ├── dax_measures.txt
 │   └── screenshots/
 │       ├── Vue_global_du_marche.png
@@ -124,50 +142,51 @@ project/
 
 ---
 
-# 🛠️ Technologies Used
+# TECHNOLOGY STACK
 
-| Technology | Role |
+| Technology | Purpose |
 |---|---|
 | PostgreSQL | Database & Data Warehouse |
 | SQL | ETL & Data Processing |
 | Power BI | Dashboards & Visualization |
-| Power Query | Data Transformation |
+| Power Query | Data Modeling |
 | DAX | Business KPIs & Measures |
-| Git/GitHub | Version Control |
+| Git & GitHub | Version Control |
 
 ---
 
-# ⚡ ETL & Data Processing
+# DATA PROCESSING
 
-## 📥 Staging Layer
+## STAGING LAYER
 
-The raw CSV dataset is first imported into a staging schema.
+The raw dataset is first loaded into a staging schema for temporary storage and validation.
 
 ### Operations:
-- CSV loading
-- Import validation
+- CSV import
+- Integrity verification
 - Logging
 - Temporary storage management
 
 ---
 
-## 🧹 Data Cleaning
+## DATA CLEANING
 
 Several SQL scripts were developed to clean and standardize the dataset.
 
 ### Cleaning Tasks:
 - Duplicate removal
 - Missing values handling
-- Data standardization
-- Encoding corrections
+- City standardization
+- Encoding correction
 - Outlier analysis
 - Type conversion
+- Validation checks
 
 ---
 
-## 🧠 Feature Engineering
+## FEATURE ENGINEERING
 
-New analytical features were generated:
+Additional analytical features were generated:
 
 | Feature | Description |
 |---|---|
@@ -181,90 +200,90 @@ New analytical features were generated:
 
 ---
 
-# 📊 Power BI Dashboards
+# POWER BI DASHBOARDS
 
-The project includes 4 fully interactive dashboards.
+The solution includes 4 fully interactive dashboards.
 
 ---
 
-# 1️⃣ Vue Globale du Marché
+# GLOBAL MARKET OVERVIEW
 
-### KPIs
+### Main KPIs
 - Total advertisements
 - Average market price
 - Average surface
 - Average price per m²
 
-### Visuals
+### Analytics
 - Sales vs Rentals
 - Property type distribution
-- Temporal evolution
 - Geographic distribution
+- Market evolution
 
 <div align="center">
-<img src="powerbi/screenshots/Vue_global_du_marche.png" width="900"/>
+<img src="powerbi/screenshots/Vue_global_du_marche.png" width="100%"/>
 </div>
 
 ---
 
-# 2️⃣ Analyse des Prix
+# PRICE ANALYTICS
 
-### KPIs
+### Main KPIs
 - Average price
 - Maximum price
 - Average price per m²
 
-### Visuals
+### Analytics
 - Price distribution
-- Price comparison by city
-- Property segment comparison
-- Price categories analysis
+- City comparison
+- Segment analysis
+- Property comparison
 
 <div align="center">
-<img src="powerbi/screenshots/analyse_les_prix.png" width="900"/>
+<img src="powerbi/screenshots/analyse%20les%20prix.png" width="100%"/>
 </div>
 
 ---
 
-# 3️⃣ Analyse Géographique
+# GEOGRAPHIC ANALYTICS
 
-### KPIs
+### Main KPIs
 - Number of cities
 - Number of neighborhoods
-- Top city
+- Most active locations
 
-### Visuals
+### Analytics
 - Geographic visualization
 - Most expensive cities
-- Top neighborhoods
-- Price by city & neighborhood
+- Neighborhood ranking
+- Spatial price analysis
 
 <div align="center">
-<img src="powerbi/screenshots/analyse_geographie.png" width="900"/>
+<img src="powerbi/screenshots/analyse_geographie.png" width="100%"/>
 </div>
 
 ---
 
-# 4️⃣ Analyse des Tendances
+# MARKET TRENDS ANALYTICS
 
-### KPIs
+### Main KPIs
 - Growth rate
-- Total sales
-- Suspicious advertisements
+- Market evolution
+- Sales trends
 
-### Visuals
-- Price evolution
+### Analytics
+- Time series analysis
 - Seasonal analysis
-- Market trends
 - N vs N-1 comparison
+- Advertisement evolution
 
 <div align="center">
-<img src="powerbi/screenshots/analyse_tendance.png" width="900"/>
+<img src="powerbi/screenshots/analyse_tendance.png" width="100%"/>
 </div>
 
 ---
 
-# 📐 DAX Measures
+# DAX BUSINESS MEASURES
 
 Advanced DAX measures were implemented:
 
@@ -277,57 +296,57 @@ Total Ventes
 Total Locations
 Croissance Annonces %
 Age Moyen Bien
-Annonces Suspectes
 Prix Maximum
 Prix Minimum
+Annonces Suspectes
 ```
 
 ---
 
-# 🔍 Data Quality & Validation
+# DATA VALIDATION
 
 Validation procedures include:
 
-- NULL values verification
-- Duplicate detection
 - Referential integrity checks
-- Suspicious advertisements detection
+- Duplicate detection
+- NULL verification
 - Warehouse consistency validation
+- Suspicious advertisements detection
 
 ---
 
-# 📈 Example Business Insights
+# BUSINESS INSIGHTS
 
-- Marrakech and Casablanca contain the highest number of advertisements.
-- Villas represent the most expensive segment.
-- Rental prices are significantly lower than sales prices.
-- Several suspicious advertisements were detected using price-per-square-meter analysis.
-- Real estate activity evolves seasonally over time.
+- Casablanca and Marrakech dominate the market volume.
+- Villas represent the highest-value property segment.
+- Rental prices remain significantly lower than sales prices.
+- Seasonal variations impact advertisement activity.
+- Price-per-square-meter analysis helped detect suspicious records.
 
 ---
 
-# 🚀 Key Features
+# KEY FEATURES
 
 ✅ End-to-End BI Workflow  
-✅ Professional Star Schema  
-✅ Advanced SQL Cleaning  
+✅ Professional Star Schema Modeling  
+✅ Advanced SQL Processing  
 ✅ Interactive Power BI Dashboards  
 ✅ Feature Engineering  
 ✅ Data Quality Validation  
-✅ DAX KPIs & Business Metrics  
-✅ Real Estate Market Analytics  
+✅ Business KPIs & DAX Measures  
+✅ Real Estate Analytics Platform  
 
 ---
 
-# 📷 Dashboard Preview
+# DASHBOARD PREVIEW
 
 <div align="center">
 
-| Vue Globale | Analyse des Prix |
+| Global Overview | Price Analytics |
 |---|---|
-| <img src="powerbi/screenshots/Vue_global_du_marche.png" width="450"/> | <img src="powerbi/screenshots/analyse_les_prix.png" width="450"/> |
+| <img src="powerbi/screenshots/Vue_global_du_marche.png" width="450"/> | <img src="powerbi/screenshots/analyse%20les%20prix.png" width="450"/> |
 
-| Analyse Géographique | Analyse des Tendances |
+| Geographic Analytics | Market Trends |
 |---|---|
 | <img src="powerbi/screenshots/analyse_geographie.png" width="450"/> | <img src="powerbi/screenshots/analyse_tendance.png" width="450"/> |
 
@@ -335,20 +354,22 @@ Validation procedures include:
 
 ---
 
-# 👨‍💻 Final Result
+# FINAL OUTCOME
 
 This project demonstrates the complete lifecycle of a modern Business Intelligence solution:
 
 ```text
-Data Extraction → Cleaning → Transformation → Data Warehouse → Visualization → Business Insights
+Extraction → Cleaning → Transformation → Modeling → Visualization → Business Insights
 ```
 
-The final solution provides a professional analytical platform for understanding the Moroccan real estate market.
+The final platform provides a scalable and interactive environment for understanding the Moroccan real estate market.
 
 ---
 
 <div align="center">
 
-### ⭐ Built with PostgreSQL, SQL, Power BI & DAX
+<h3>
+Built with PostgreSQL, SQL, Power BI & DAX
+</h3>
 
 </div>
