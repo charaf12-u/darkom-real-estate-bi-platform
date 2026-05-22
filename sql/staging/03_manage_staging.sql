@@ -1,0 +1,1 @@
+TRUNCATE TABLE staging.staging_annonces;

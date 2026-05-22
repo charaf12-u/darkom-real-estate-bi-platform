@@ -1,0 +1,108 @@
+
+Total Annonces = COUNT('bi_schema fact_annonces'[annonce_id])
+
+Prix Moyen = AVERAGE('bi_schema fact_annonces'[prix])
+
+Prix Moyen m² = AVERAGE('bi_schema fact_annonces'[prix_m2])
+
+Surface Moyenne =
+AVERAGE('bi_schema fact_annonces'[surface])
+
+Total Ventes =
+CALCULATE(
+    COUNT('bi_schema fact_annonces'[annonce_id]),
+    'bi_schema dim_bien'[transaction] = "Vente"
+)
+
+Total Locations =
+CALCULATE(
+    COUNT('bi_schema fact_annonces'[annonce_id]),
+    'bi_schema dim_bien'[transaction] = "Location"
+)
+
+Prix Minimum =
+MIN('bi_schema fact_annonces'[prix])
+
+Prix Maximum =
+MAX('bi_schema fact_annonces'[prix])
+
+Top Ville =
+MAXX(
+    TOPN(
+        1,
+        VALUES('bi_schema dim_localisation'[ville]),
+        [Total Annonces],
+        DESC
+    ),
+    'bi_schema dim_localisation'[ville]
+)
+
+% Annonces Suspectes =
+DIVIDE(
+    CALCULATE(
+        COUNT('bi_schema fact_annonces'[annonce_id]),
+        'bi_schema fact_annonces'[is_suspicious] = TRUE
+    ),
+    [Total Annonces]
+)
+
+
+
+
+
+
+Prix Moyen Vente =
+CALCULATE(
+    AVERAGE('bi_schema fact_annonces'[prix]),
+    'bi_schema dim_bien'[transaction] = "Vente"
+)
+
+Prix Moyen Location =
+CALCULATE(
+    AVERAGE('bi_schema fact_annonces'[prix]),
+    'bi_schema dim_bien'[transaction] = "Location"
+)
+
+Nombre Villes =
+DISTINCTCOUNT(
+    'bi_schema dim_localisation'[ville]
+)
+
+Nombre Quartiers =
+DISTINCTCOUNT(
+    'bi_schema dim_localisation'[quartier]
+)
+
+Surface Maximum =
+MAX('bi_schema fact_annonces'[surface])
+
+Surface Minimum =
+MIN('bi_schema fact_annonces'[surface])
+
+Prix m² Maximum =
+MAX('bi_schema fact_annonces'[prix_m2])
+
+Prix m² Minimum =
+MIN('bi_schema fact_annonces'[prix_m2])
+
+Annonces Suspectes =
+CALCULATE(
+    COUNT('bi_schema fact_annonces'[annonce_id]),
+    'bi_schema fact_annonces'[is_suspicious] = TRUE
+)
+
+Total Appartements =
+CALCULATE(
+    COUNT('bi_schema fact_annonces'[annonce_id]),
+    'bi_schema dim_bien'[type_bien] = "Appartement"
+)
+
+Total Villas =
+CALCULATE(
+    COUNT('bi_schema fact_annonces'[annonce_id]),
+    'bi_schema dim_bien'[type_bien] = "Villa"
+)
+
+Age Moyen Bien =
+AVERAGE('bi_schema fact_annonces'[age_bien])
+
